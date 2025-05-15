@@ -11,8 +11,14 @@
     "esModuleInterop": true,
     "strict": true,
     "importsNotUsedAsValues": "error",
-    "jsx": "react-jsx",
-    "jsxImportSource": "react"
+    "jsx": "preserve",
+    "jsxImportSource": "react",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "incremental": true
   },
   "extends": "astro/tsconfigs/strict"
 }
